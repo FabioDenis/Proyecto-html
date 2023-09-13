@@ -1,0 +1,525 @@
+
+/*Index */
+body, html {
+    margin: 0 auto;
+    padding: 0;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color: rgba(233,217,202,255);
+}
+
+.header {
+  width: 100%;
+margin: 0;
+padding: 0;
+  background-color: black;
+}
+.divheader{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.titulo_principal {
+    color: whitesmoke;
+    font-size: 70px;
+    background-color: black;
+    text-align: center;
+    border: solid 2px grey;
+    margin: 0;
+   
+  }
+/*Estilos Nav*/
+.navegador {
+  display: flex;
+  background-color: rgb(169 113 93);
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+.botonesnav {
+  display: flex;
+  margin-left: 37%;
+}
+.ulnav {
+  display: flex;
+  list-style: none;
+  margin-left: 0%;
+}
+.botonnav {
+  margin-left: 20%;
+}
+.botonnav1 {
+  margin-left: 15%;
+  margin-top: 5%;
+}
+.anav {
+  text-decoration: none;
+  color: black;
+}
+.anav:hover {
+  color: whitesmoke;
+}
+
+/*main del index*/
+.mainindex {
+  display: flex;
+}
+
+.imagenindex1 {
+  margin-top: 4%;
+}
+.imagenindex2 {
+  margin-top: 4%;
+}
+.divtextoindex {
+  padding: 6%;
+}
+
+/*Footer*/
+.footer {
+  background-color: black;
+  width: 100%;
+  
+}
+.ifooter {
+  color: whitesmoke;
+}
+.divFooter {
+  display: flex;
+}
+.divFooternombre {
+  background-color: black;
+  margin-right: 25%;
+}
+.divFooterRedes {
+  background-color: black;
+  margin-right: 23%;
+}
+.letrafooterRedes {
+  color: whitesmoke;
+}
+.divFooterContacto {
+  background-color: black;
+  margin-right: 5%;
+}
+.letrafootercontacto {
+  color: whitesmoke;
+}
+
+/*Main con contenedor titulo y boton mas los botones del box*/
+.mainListaTabla {
+}
+.botonYtitulopantalla {
+  text-align: center;
+}
+/*
+    .titulolista{
+
+   
+}*/
+
+.botonesbox {
+  display: flex;
+  margin-top: 12%;
+  margin-left: 8%;
+  margin-right: 0%;
+}
+.botonremeras {
+  background-color: rgb(169 113 93);
+  margin-left: 17%;
+  margin-right: 3%;
+  padding: 2%;
+  border: 1px solid black;
+}
+.aRemeras {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+}
+.aRemeras:hover {
+  color: whitesmoke;
+}
+.botonpantalones {
+  background-color: rgb(169 113 93);
+  margin-left: 3%;
+  margin-right: 8%;
+  padding: 2%;
+  border: 1px solid black;
+}
+.aPantalones {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+}
+.aPantalones:hover {
+  color: whitesmoke;
+}
+.botonaccesorios {
+  background-color: rgb(169 113 93);
+  margin-left: -3%;
+  margin-right: 6%;
+  padding: 2%;
+  border: 1px solid black;
+}
+.aAccesorios {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+}
+.aAccesorios:hover {
+  color: whitesmoke;
+}
+.footertabla {
+  background-color: black;
+}
+.hrfootertabla {
+  margin-top: 200px;
+}
+
+/*Pantallas de los box de productos*/
+
+/*Box de remeras*/
+
+/*Remera1*/
+
+.contenedorremera1 {
+  place-items: center;
+  margin: auto;
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+  padding: 0%;
+}
+
+.imagenremera1 {
+  place-items: center;
+  margin: auto;
+  margin-top: 5%;
+  margin-left: 40%;
+  margin-right: 0%;
+  padding: 0%;
+}
+
+.dataremera1 {
+  margin-top: 0%;
+  margin-left: 36%;
+  margin-right: 0%;
+  padding: 0%;
+}
+.botonesremera1 {
+  margin-top: 0%;
+  margin-left: 49%;
+  margin-right: 0%;
+  padding: 0%;
+}
+
+/* Contenedor remera 2*/
+.contenedorremera2 {
+}
+.imagenremera2 {
+  place-items: center;
+  margin: auto;
+  margin-top: 5%;
+  margin-left: 40%;
+  margin-right: 0%;
+  padding: 0%;
+}
+.dataremera2 {
+  margin-top: 0%;
+  margin-left: 45%;
+  margin-right: 0%;
+  padding: 0%;
+}
+.botonesremera2 {
+  margin-top: 0%;
+  margin-left: 49%;
+  margin-right: 0%;
+  padding: 0%;
+}
+
+/*Contenedor Remera 3*/
+
+.contenedorremera3 {
+}
+.imagenremera3 {
+  place-items: center;
+  margin: auto;
+  margin-top: 5%;
+  margin-left: 40%;
+  margin-right: 0%;
+  padding: 0%;
+}
+.dataremera3 {
+  margin-top: 0%;
+  margin-left: 36%;
+  margin-right: 0%;
+  padding: 0%;
+}
+.botonesremera3 {
+  margin-top: 0%;
+  margin-left: 49%;
+  margin-right: 0%;
+  padding: 0%;
+}
+.footerboxremeras {
+  background-color: black;
+}
+.hrfooterboxremeras {
+  margin-top: 200px;
+}
+
+/* BOX pantalones*/
+
+/*Pantalon1*/
+
+.contenedorpantalon1 {
+  place-items: center;
+  margin: auto;
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+  padding: 0%;
+}
+
+.imagenpantalon1 {
+  place-items: center;
+  margin: auto;
+  margin-top: 5%;
+  margin-left: 40%;
+  margin-right: 0%;
+  padding: 0%;
+}
+
+.datapantalon1 {
+  margin-top: 0%;
+  margin-left: 46%;
+  margin-right: 0%;
+  padding: 0%;
+}
+.botonespantalon1 {
+  margin-top: 0%;
+  margin-left: 49%;
+  margin-right: 0%;
+  padding: 0%;
+}
+
+/* Contenedor pantalon 2*/
+.contenedorpantalon2 {
+}
+.imagenpantalon2 {
+  place-items: center;
+  margin: auto;
+  margin-top: 5%;
+  margin-left: 40%;
+  margin-right: 0%;
+  padding: 0%;
+}
+.datapantalon2 {
+  margin-top: 0%;
+  margin-left: 44%;
+  margin-right: 0%;
+  padding: 0%;
+}
+.botonespantalon2 {
+  margin-top: 0%;
+  margin-left: 49%;
+  margin-right: 0%;
+  padding: 0%;
+}
+
+/*Contenedor Pantalon 3*/
+
+.contenedorpantalon3 {
+}
+.imagenpantalon3 {
+  place-items: center;
+  margin: auto;
+  margin-top: 5%;
+  margin-left: 40%;
+  margin-right: 0%;
+  padding: 0%;
+}
+.datapantalon3 {
+  margin-top: 0%;
+  margin-left: 39%;
+  margin-right: 0%;
+  padding: 0%;
+}
+.botonespantalon3 {
+  margin-top: 0%;
+  margin-left: 49%;
+  margin-right: 0%;
+  padding: 0%;
+}
+.footerboxpantalones {
+  background-color: black;
+}
+.hrfooterboxpantalones {
+  margin-top: 200px;
+}
+
+/*BOX Accesorios*/
+
+/*Contenedor accesorio 1*/
+
+.contenedoraccesorio1 {
+  place-items: center;
+  margin: auto;
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+  padding: 0%;
+}
+
+.imagenaccesorio1 {
+  place-items: center;
+  margin: auto;
+  margin-top: 5%;
+  margin-left: 35%;
+  margin-right: 0%;
+  padding: 0%;
+}
+
+.dataaccesorio1 {
+  margin-top: 0%;
+  margin-left: 44%;
+  margin-right: 0%;
+  padding: 0%;
+}
+.botonesaccesorio1 {
+  margin-top: 0%;
+  margin-left: 48%;
+  margin-right: 0%;
+  padding: 0%;
+}
+
+/* Contenedor pantalon 2*/
+.contenedoraccesorio2 {
+}
+.imagenaccesorio2 {
+  place-items: center;
+  margin: auto;
+  margin-top: 5%;
+  margin-left: 35%;
+  margin-right: 0%;
+  padding: 0%;
+}
+.dataaccesorio2 {
+  margin-top: 0%;
+  margin-left: 43%;
+  margin-right: 0%;
+  padding: 0%;
+}
+.botonesaccesorio2 {
+  margin-top: 0%;
+  margin-left: 48%;
+  margin-right: 0%;
+  padding: 0%;
+}
+
+/*Contenedor Accesorio 3*/
+
+.contenedoraccesorio3 {
+}
+.imagenaccesorio3 {
+  place-items: center;
+  margin: auto;
+  margin-top: 5%;
+  margin-left: 35%;
+  margin-right: 0%;
+  padding: 0%;
+}
+.dataaccesorio3 {
+  margin-top: 0%;
+  margin-left: 44%;
+  margin-right: 0%;
+  padding: 0%;
+}
+.botonesaccesorio3 {
+  margin-top: 0%;
+  margin-left: 48%;
+  margin-right: 0%;
+  padding: 0%;
+}
+/*.footerboxaccesorios{
+    background-color: black;}
+
+
+.hrfooterboxaccesorios{
+    margin-top: 200px;
+
+}*/
+
+/*Tabla de Productos*/
+
+.divtablaproductos {
+}
+.tabla_productos {
+  margin-left: 24%;
+  padding-left: 0%;
+  margin-top: 6%;
+  width: 60%;
+  border: 1px solid black;
+}
+.trTablaproductos {
+  border: 1px solid black;
+}
+.thTablaProductos {
+  border: 1px solid black;
+}
+.tdTablaproductos {
+  border: 1px solid black;
+}
+
+/*Ficha de productos*/
+
+.divFicha {
+  margin-top: 5%;
+  display: flex;
+}
+.imagenFicha {
+  margin-left: 20%;
+}
+
+.divtextoFicha {
+  padding-left: 4%;
+}
+.textoFicha {
+  margin-top: 45%;
+  padding-left: 0%;
+}
+
+.h2textoficha {
+  color: rgb(169 113 93);
+}
+
+.divSelect {
+  margin-top: 12%;
+}
+.selectTalles {
+  width: 100px;
+}
+.selectNumeros {
+  width: 100px;
+}
+
+.divbotonComprar {
+  margin-top: 12%;
+}
+.botoncomprar {
+  text-decoration: none;
+  color: rgb(169 113 93);
+  font-size: 30px;
+}
+.botoncomprar:hover {
+  color: black;
+}
+
+/*Formulario de compra*/
+
+.divFormulario {
+  margin-left: 36%;
+  display: flex;
+}
+.divDatosdeentrega {
+  margin-left: 10%;
+}
